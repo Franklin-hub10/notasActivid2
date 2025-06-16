@@ -1,0 +1,36 @@
+name: notas_gastos_firebase
+description: Notas y gastos con Firebase
+publish_to: none
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.2.0 <4.0.0"
+
+# ───────────── DEPENDENCIAS PRINCIPALES ─────────────
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # Íconos iOS
+  cupertino_icons: ^1.0.8
+
+  # Firebase
+  firebase_core: ^2.25.4        # (2.x va con FlutterFire 2.x/3.x)
+  firebase_auth: ^4.17.4
+  firebase_database: ^10.5.4
+
+  # Utilidades
+  intl: ^0.18.0
+  uuid: ^3.0.7
+  provider: ^6.1.5
+  get_it: ^8.0.3
+
+# ───────────── DEPENDENCIAS DE DESARROLLO ───────────
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
